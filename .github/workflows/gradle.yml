@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   pull_request:
     types: [closed]
-    branches: ["main"]
+    branches: ["main", "dev"]
   workflow_dispatch:  # 수동 트리거 추가
 
 permissions:  
